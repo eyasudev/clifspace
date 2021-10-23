@@ -5,9 +5,9 @@
 */
 
 
-
 body {
   font-family: 'Open Sans', sans-serif;
+  /* background-color: rgba(25, 25, 25,0.9); */
 }
 
 p {
@@ -53,7 +53,7 @@ p {
 .section-heading em {
   font-style: normal;
   font-weight: 700;
-  color: #45489a;
+  color: #4b0000;
 }
 
 .section-heading p {
@@ -68,7 +68,7 @@ p {
 .white-button a {
   font-size: 13px;
   font-weight: 600;
-  color: #45489a;
+  color: #4b0000;
   text-transform: capitalize;
   background-color: #fff;
   display: inline-block;
@@ -81,7 +81,7 @@ p {
 }
 
 .white-button a:hover {
-  background-color: #45489a;
+  background-color: #4b0000;
   color: #fff;
 }
 
@@ -90,7 +90,7 @@ p {
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #4b0000;
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -102,7 +102,7 @@ p {
 
 .accent-button a:hover {
   background-color: #fff;
-  color: #45489a;
+  color: #4b0000;
 }
 
 header {
@@ -197,7 +197,7 @@ header {
   width: 100%;
   height: 15%;
   /*line-height: 100px;*/
-  background-color: #45489a;
+  background-color: #4b0000;
   padding: 20px;
   text-align: center;
 }
@@ -332,7 +332,7 @@ header {
 }
 
 .sidebar-navigation .social-icons li a:hover {
-  color: #45489a;
+  color: #4b0000;
 }
 
 
@@ -510,7 +510,7 @@ header {
 }
 
 #featured .owl-dots .active span {
-  background-color: #45489a!important;
+  background-color: #4b0000!important;
 }
 
 #featured .owl-dots button {
@@ -546,7 +546,7 @@ header {
 }
 
 #featured .owl-nav span:hover {
-  background-color: #45489a;
+  background-color: #4b0000;
   color: #fff;
 }
 
@@ -760,7 +760,7 @@ header {
   height: 90px;
   width: 100%;
   background-color: #eee;
-  border-bottom: 10px solid #45489a;
+  border-bottom: 10px solid #4b0000;
 }
 
 #blog .tabs li {
@@ -786,7 +786,7 @@ header {
 }
 
 #blog .tabs a:hover {
-  color: #45489a;
+  color: #4b0000;
 }
 
 
@@ -795,7 +795,7 @@ header {
 }
 
 #blog .tabs .active {
-  background-color: #45489a;
+  background-color: #4b0000;
   color: #fff;
 }
 
@@ -914,7 +914,7 @@ header {
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #4b0000;
   display: inline-block;
   height: 44px;
   line-height: 24px;
