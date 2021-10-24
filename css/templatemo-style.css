@@ -8,6 +8,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
   /* background-color: rgba(25, 25, 25,0.9); */
+  
+    background: #000000;
+    color: #999;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 p {
@@ -61,7 +67,8 @@ p {
   font-size: 15px;
   line-height: 26px;
   color: #343434;
-  position: absolute;
+  /* position: absolute; */
+  
   top: 12.5px;
 }
 
@@ -540,6 +547,7 @@ header {
   text-align: center;
   line-height: 42px;
   background-color: #eee;
+  
   color: #232323;
   font-size: 42px;
   transition: all 0.5s;
@@ -551,7 +559,7 @@ header {
 }
 
 #featured .item {
-  text-align: left;
+  text-align: center;
   position: relative;
   z-index: 10;
 }
