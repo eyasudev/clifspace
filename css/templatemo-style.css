@@ -501,6 +501,8 @@ header {
   margin-right: 20%;
 }
 
+
+  /* this part down is for content section that was swapped */
 #featured .content-section {
   display: inline-block;
   position: relative;

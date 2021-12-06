@@ -10,3 +10,14 @@
 .row{
   
 }
+
+#featured span {
+  color: #ffffff;
+  font-weight: bold; 
+  display:  block; 
+  padding-bottom: 6px;
+}
+
+#featured span small{
+  float:  right;
+}
