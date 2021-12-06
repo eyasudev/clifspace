@@ -21,3 +21,28 @@
 #featured span small{
   float:  right;
 }
+
+#jsonContent {
+
+  display:  inline-block;
+}
+
+#jsonContent img {
+  float: left;
+  margin-right: 30px;
+  max-width: 100%;
+  overflow: hidden;
+
+
+}
+
+/*#jsonContent .card {
+  
+
+
+}*/
+
+.tabs-content {
+  display: none;
+  /*visibility: hidden;*/
+}

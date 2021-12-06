@@ -48,7 +48,7 @@ p {
   margin-bottom: 60px;
 }
 h4 {
-    color: #cfd3d4;
+    color: #fff;
     
 }
 .section-heading h1 {
@@ -69,7 +69,7 @@ h4 {
     display: inline-block;
     font-size: 15px;
     line-height: 26px;
-    color:#232323;
+    color:#eee;
     /* position: absolute; */
 
     top: 12.5px;
@@ -503,16 +503,44 @@ header {
 
 
   /* this part down is for content section that was swapped */
-#featured .content-section {
+#featured .masonry {
+  position: relative;
+  width: 100%;
+}
+
+#featured .masonry .item img {
+  transition: all 1s;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#featured .masonry .item img:hover {
+  opacity: 0.5;
+}
+
+
+
+
+/* Projects Style */
+
+#projects {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+}
+
+/* from this part down is now for featured  */
+#projects .content-section {
   display: inline-block;
   position: relative;
 }
 
-#featured .owl-dots {
+#projects .owl-dots {
   margin-top: 40px;
 }
 
-#featured .owl-dots .owl-dot span  {
+#projects .owl-dots .owl-dot span  {
   width: 12px;
   height: 12px;
   background-color: #cdcdcd!important;
@@ -521,30 +549,30 @@ header {
   margin: 0 3px;
 }
 
-#featured .owl-dots .active span {
+#projects .owl-dots .active span {
   background-color: #4b0000!important;
 }
 
-#featured .owl-dots button {
+#projects .owl-dots button {
   outline: none;
 }
 
-#featured .owl-nav {
+#projects .owl-nav {
   position: absolute;
   display: inline-block;
   top: -110px;
   right: 0;
 }
 
-#featured .owl-nav button:focus {
+#projects .owl-nav button:focus {
   outline: none;
 }
 
-#featured .owl-nav .owl-prev span {
+#projects .owl-nav .owl-prev span {
   margin-right: 10px;
 }
 
-#featured .owl-nav .owl-next span, #featured .owl-nav .owl-prev span {
+#projects .owl-nav .owl-next span, #projects .owl-nav .owl-prev span {
   outline: none;
   width: 50px;
   height: 50px;
@@ -558,27 +586,27 @@ header {
   transition: all 0.5s;
 }
 
-#featured .owl-nav span:hover {
+#projects .owl-nav span:hover {
   background-color: #4b0000;
   color: #fff;
 }
 
-#featured .item {
+#projects .item {
   text-align: center;
   position: relative;
   z-index: 10;
 }
 
-#featured .item .image {
+#projects .item .image {
   position: relative;
 }
 
-#featured .item .image img {
+#projects .item .image img {
   width: 100%;
   overflow: hidden;
 }
 
-#featured .item .image .featured-button a {
+#projects .item .image .featured-button a {
   font-size: 13px;
   font-weight: 600;
   color: #fff;
@@ -593,24 +621,26 @@ header {
   text-decoration: none;
   transition: all 0.5s;
   position: absolute;
+  margin-left: -50%;
+  position: ;
   z-index: 9;
   bottom: -44px;
   opacity: 0;
 }
 
-#featured .item:hover .featured-button a {
+#projects .item:hover .featured-button a {
   bottom: 0;
   opacity: 1;
 }
 
-#featured .item .text-content {
+#projects .item .text-content {
   padding-top: 20px;
   background-color: #fff;
   position: relative;
   z-index: 10;
 }
 
-    #featured .item .text-content h4 {
+    #projects .item .text-content h4 {
         margin-top: 0px;
         margin-bottom: 5px;
         font-size: 21px;
@@ -620,7 +650,7 @@ header {
         letter-spacing: 0.5px;
     }
 
-#featured .item .text-content span {
+#projects .item .text-content span {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
@@ -630,30 +660,6 @@ header {
 }
 
 
-
-/* Projects Style */
-
-#projects {
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 50px;
-}
-
-#projects .masonry {
-  position: relative;
-  width: 100%;
-}
-
-#projects .masonry .item img {
-  transition: all 1s;
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#projects .masonry .item img:hover {
-  opacity: 0.5;
-}
 
 
 
