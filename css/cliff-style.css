@@ -27,12 +27,39 @@
   display:  inline-block;
 }
 
+#jsonContent .card{
+  display: inline-block;
+  width: 90%;
+  margin: 10px;
+}
+
+
+
 #jsonContent img {
   float: left;
   margin-right: 30px;
   max-width: 100%;
   overflow: hidden;
+  width: 30rem;
 
+
+}
+
+#featured #skills{
+  
+}
+
+#skills div{
+  display: inline-block;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-radius: 20px;
+  background-color: #4d4d4d;
+  border: 1px solid #7d7d7d;
 
 }
 
