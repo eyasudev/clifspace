@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     ""
   ],
   "SelectedNode": "\\C:\\Users\\nnsys\\Source\\Repos\\cliffspace",
+=======
+    "\\assets",
+    "\\css",
+    "\\css\\fonts"
+  ],
+>>>>>>> 29b0f44984403dea241e82e76c6a1b98561847a4
   "PreviewInSolutionExplorer": false
 }
