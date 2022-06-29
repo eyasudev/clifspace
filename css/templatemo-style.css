@@ -237,7 +237,7 @@ header {
   top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-50%, -50%);*/
+  transform: translate(-50%, -50%);
 }
 
 .sidebar-navigation .logo em {
@@ -301,10 +301,14 @@ header {
 .sidebar-navigation nav a:hover, nav .active-section {
   color: #fff;
   background-color: rgba(0,0,0,0.8);
+
+  color: #D43F52;
 }
 .sidebar-navigation nav a:hover span, nav .active-section span{
   /*background-color: #ddd;*/
-  background-color: rgba(0,0,0,0.8);
+  /* background-color: rgba(0,0,0,0.8); */
+  color: #606060;
+  
 }
 
 .sidebar-navigation nav em {
