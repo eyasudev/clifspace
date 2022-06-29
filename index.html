@@ -42,12 +42,12 @@
             <div id="main-nav" class="collapse navbar-collapse">
 
                 <nav>
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav" data-toggle="collapse" data-target="#main-nav">
                         <li><a href="#top">Home</a></li>
                         <li><a href="#featured">About</a></li>
                         <li><a href="#projects">Recent Projects</a></li>
                         <li><a href="#blog">Blog Entries</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#contact">Contact me</a></li>
                     </ul>
                 </nav>
             </div>
@@ -111,7 +111,7 @@
                         <a href="#contact">
                             <span class="rect"></span>
                             <span class="circle"></span>
-                            Contact Us
+                            Contact me
                         </a>
                     </li>
                 </ul> -->
@@ -121,7 +121,7 @@
                 <li><a href="https://twitter.com/CliffordOlaw"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://ng.linkedin.com/in/cliffordolawaiye"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://github.com/AnOnYmOzZ"><i class="fa fa-github"></i></a></li>
-                <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
+                <li><a href="https://cliffolaw.medium.com"><i class="fa fa-medium"></i></a></li>
             </ul>
         </div>
 
@@ -136,11 +136,19 @@
                             <p> Hi, I'm </p>
                           <h1> Clifford </h1>
                           <p> Embedded systems • IoT • Mixed reality <br>
-                          Distributed Systems • Software architecture • Robotics </p>
+                          Distributed Systems • Software architecture <br> 
+                          Cross platform mobile development • Robotics </p>
 
-                          <div class="white-button button">
+                          <!-- <div class="white-button button">
                               <a href="#contact">Contact Me</a>
-                          </div>
+                          </div> -->
+                          <div class="white-button button">
+                            <a href="#contact">Build with Me</a>
+                        </div>
+                        <div class="green-button button">
+                            <a href="https://www.upwork.com/fl/~01a327ca7f6149f243">Hire me on upwork</a>
+                        </div>
+                        
                         </div>
                         </div>
                     </div>
@@ -194,10 +202,12 @@
                             <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p> -->
 
                             <!-- <div class="col-md-6 col-xs-7 wow fadeInRight animated"id="ProgressContainer" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInRight;"> -->
-
                         </div>
-                        
                     </div>
+                </div>
+                
+                <div class="section-content">
+                    <h1> Technical skills </h1>
                     <div id="skills"> 
                         <!-- <h4>SKILLS </h4>  -->
                         <!-- <span class="text-top">Web and Mobile App Development <small>70%</small> </span> -->
@@ -208,17 +218,18 @@
                         <!-- <span>IoT Solution Architecture </span> -->
                         <!-- <span>Python programming </span>  -->
                         <!-- <span>3D Modelling and 3D Printing </span> <br>  -->
-                        <div>Web and Mobile App Development <!--<small>70%</small>--> </div>
-                        <div>Embedded Software Dev  </div>
-                        <div>IoT Solution Architecture </div>
-                        <div>Python programming </div> 
-                        <div>3D Modelling and 3D Printing </div> <br> 
+                        <!-- <div>Web and Mobile App Development <small>70%</small> </div> -->
+                        <div class="strong">Web Development</div> <div class="light">Android development</div>
+                        <div class="strong">Cross platform mobile development </div>
                         
+                        <div class="strong">Embedded Software Dev </div> <div class="strong">IoT</div> 
+                        <div class="strong">QT</div> <div>Flask</div> <div>React</div> <!-- Framework -->
+                        <div class="strong">C/C++</div> <div class="strong">Python</div> <div class="strong">Javascript</div>  <div >Java</div> <!-- language -->
+                        <div class="strong">3D Modelling and 3D Printing </div> 
+                        <br> 
                     </div>
+                    <h1> <br>Testimonials </h1>
                     
-                </div>
-                
-                <div class="section-content">
                     <div class="masonry">
                         <div class="row">
                             <div class="item">
@@ -302,18 +313,10 @@
                     <p></p>
                 </div>
 
-<!-- https://medium.datadriveninvestor.com/embed-medium-as-a-blog-on-your-site-54a1b49cbe16 -->
-<!--                 <div class="container mt-5 pt-5" id="medium">
-                    <div class="jumbotron text-center">
-                        <div id="logo"></div>
-                        <h1 class="display-4 mb-3">@username's Posts</h1>
-                        <a class="btn btn-outline-primary btn-lg" href="https://medium.com/@username" target="_blank" role="button">View all posts</a>
-                    </div>
-                    <div class="row" id="jsonContent">
-                    </div>
-                </div> -->
-
-                <div class="section-content">
+                <h3> Check out my medium profile for more articles: 
+                    <a href="https://cliffolaw.medium.com"><i class="fa fa-medium"></i></a>
+                </h3>
+                <div class="section-content" id="medium_blog">
                     <div class="row" id="jsonContent">
                     </div>
 
@@ -528,12 +531,26 @@
                 </div>-->
                 <div id="contact-content">
                     <div class="section-heading">
-                        <h1>Contact<br><em>Cliff</em></h1>
+                        <h1>Contact<br><em>Clifford</em></h1>
                         <!-- <p>Drop any message you have for me here
                         <br>I read all messages</p> -->
-                        
                     </div>
                     <div class="section-content">
+                        <h3 id="email">You can send an email to: 
+                            <em>cliffordolawaiye@gmail.com</em>
+                            <br> or chat me up on social media
+                        </h3>
+                        <ul class="social-icons">
+                            <!-- I'm not active on facebook -->
+                            <!-- <li><a href="https://www.facebook.com/jcliffie"><i class="fa fa-facebook"></i></a></li> -->
+                            <li><a href="https://twitter.com/CliffordOlaw"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://ng.linkedin.com/in/cliffordolawaiye"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/AnOnYmOzZ"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://cliffolaw.medium.com"><i class="fa fa-medium"></i></a></li>
+                        </ul>
+
+                    <h3><br> or</h3>
+                        
                         <form id="contact" action="#" method="post">
                             <div class="row">
                                 <div class="col-md-4">

@@ -81,6 +81,7 @@ h4 {
   color: #D43F52;
   text-transform: capitalize;
   background-color: #fff;
+  border-radius: 20px;
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -93,6 +94,33 @@ h4 {
 .white-button a:hover {
   background-color: #D43F52;
   color: #fff;
+}
+
+.green-button a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 1px #2bd82e;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 25px;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.green-button a:hover {
+  background-color: #2bd82e;
+  color: #fff;
+}
+
+.green-button a:focus {
+  outline: none;
 }
 
 .accent-button a {
@@ -327,7 +355,9 @@ header {
   color: #fff;
 }
 
-.sidebar-navigation .social-icons {
+.sidebar-navigation .social-icons
+/* , .social-icons  */
+{
   position: absolute;
   width: 100%;  
   bottom: 10px;
@@ -336,7 +366,9 @@ header {
   text-align: center;
 }
 
-.sidebar-navigation .social-icons li {
+.sidebar-navigation .social-icons li,
+.social-icons li 
+{
   display: inline-block;
   margin-right: 15px;
   margin-top: 0px;
@@ -346,13 +378,15 @@ header {
   margin-right: 0px;
 }
 
-.sidebar-navigation .social-icons li a {
+.sidebar-navigation .social-icons li a, 
+.social-icons li a {
   font-size: 18px;
   color: #fff;
   transition: all 0.5s;
 }
 
-.sidebar-navigation .social-icons li a:hover {
+.sidebar-navigation .social-icons li a:hover, 
+.social-icons li a:hover{
   color: #D43F52;
 }
 
@@ -518,6 +552,7 @@ header {
 #featured .masonry {
   position: relative;
   width: 100%;
+  display: none;
 }
 
 #featured .masonry .item img {

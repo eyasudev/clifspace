@@ -24,7 +24,6 @@ jQuery(document).ready(function($) {
             $('#main-nav').toggleClass("open");
         });
 
-
         $('.tabgroup > div').hide();
             $('.tabgroup > div:first-of-type').show();
             $('.tabs a').click(function(e){

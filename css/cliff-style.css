@@ -33,17 +33,25 @@
   margin: 10px;
 }
 
-
-
 #jsonContent img {
   float: left;
   margin-right: 30px;
   max-width: 100%;
   overflow: hidden;
-  width: 30rem;
-
-
+  width: 20rem;
 }
+
+#medium_blog #jsonContent p{
+  /* text-align: left;
+  right: 0px; */
+}
+
+#medium_blog #jsonContent .card-body{
+  text-align: left;
+  /* right: 0px; */
+  /* min-width: 300px; */
+}
+
 
 #featured #skills{
   
@@ -76,13 +84,12 @@
   border: 1px solid #7d7d7d;
 }
 
-/*#jsonContent .card {
-  
-
-
-}*/
 
 .tabs-content {
   /* display: none; */
   /*visibility: hidden;*/
+}
+
+#email em{
+  color: white;
 }

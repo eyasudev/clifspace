@@ -19,16 +19,17 @@
                         var yourString = item.description.replace(/<img[^>]*>/g,""); //replace with your string.
                         yourString = yourString.replace('h4', 'p');
                         yourString = yourString.replace('h3', 'p');
-                        var maxLength = 120; // maximum number of characters to extract
+                        var maxLength = 100; // maximum number of characters to extract
                         //trim the string to the maximum length
                         var trimmedString = yourString.substr(0, maxLength);
                         //re-trim if we are in the middle of a word
                         trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
                         display += `<p class="card-text">${trimmedString}...</p>`;
                         
-                        display += `<br><a href="${item.link}" target="_blank" class="btn btn-outline-success" >Read More</a>`;
+                        // display += `<br><a href="${item.link}" target="_blank" class="btn btn-outline-success" >Read More</a>`;
+                        display += `<a href="${item.link}" target="_blank" class="btn btn-outline-success" >Read More</a>`;
                         display += '</div></div>';
-                        return k < 10;
+                        return k < 2;
                     });
         
                     resolve($content.html(display));
